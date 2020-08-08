@@ -1,0 +1,25 @@
+.header{
+
+    background-color: blue;
+    padding: 10px;
+    color: white;
+  
+}
+
+.main {
+
+}
+
+.nav {
+
+}
+.nav ul li {
+    list-style: none;
+}
+
+.footer{
+
+    background-color: #cccccc;
+    padding: 10px;
+    color: #000000;
+}
