@@ -1,28 +1,42 @@
 <html>
     <head>
-        <title></title>
+        <title>Rapberry Pi</title>
         <meta charset="utf-8">
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
         <link rel="stylesheet" href="assets/normalize.css">
-        <link rel="stylesheet" href="assets/main.css">
+        <link rel="stylesheet" href="assets/css/main.css">
         <script src="https://kit.fontawesome.com/6d05e67879.js" crossorigin="anonymous"></script>
+        <script src="assets/js/scripts.js"></script>
         </head>
     <body>
-        <div class="header"><span class="user">Tigran Vardanyan<i class="fas fa-user-clock"></i></span></div>
+        <div class="header"><span class="user">Tigran Vardanyan &nbsp<i class="fas fa-comments"></i></span></div>
         <div class="main">
+            <input type="checkbox" id="nav-menu-input" hidden />
             <div class="nav">
-                <ul><li class="iot">INTERNET OF THINGS</li></ul>
-                <ul>
-                    <li>Home</li>
-                    <li>Dashboard</li>
+                <div class="nav-burger">
+                    <label for="nav-menu-input" class="nav-burger-icon">
+                        <img src="./assets/images/burger.svg" alt="">
+                    </label>
+                </div>
+
+                <ul class="nav-menu">
+                    <li>
+                    <a href="">
+                        <i class="fa fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fab fa-chromecast"></i>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
           
         </div>
         
-        <div class="footer"><span>Copyrights © 2020 All Rights Reserved. by  TeamViewer
-
-
-</span></div>
+        <div class="footer"><span>Copyrights © 2020 All Rights Reserved. by  TeamViewer</span></div>
     </body>
 </html>

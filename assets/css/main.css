@@ -1,0 +1,77 @@
+.header {
+  background-color: e2dede;
+  padding: 20px;
+  font-size: 18px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: deepskyblue;
+}
+a:hover {
+  color: white;
+}
+.nav {
+  position: relative;
+  top: 0px;
+  padding: 10px;
+  height: 100%;
+  width: 300px;
+  background-color: #4f5f6e;
+}
+.nav ul li {
+  padding: 5px;
+  list-style: none;
+  color: #cccccc;
+}
+.footer {
+  background-color: #cccccc;
+  padding: 10px;
+  color: #000000;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  z-index: -1;
+}
+.iot {
+  color: white!important;
+  font-weight: bold;
+  font-family: "Agency FB";
+}
+.user {
+  float: right;
+  font-weight: bold;
+  font-family: "Agency FB";
+  color: deepskyblue;
+}
+body {
+  background: #F0F0F0;
+}
+.nav-burger-icon img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+#nav-menu-input:checked + .nav {
+  max-width: 65px;
+}
+#nav-menu-input:checked + .nav .nav-menu {
+  margin-top: 55px;
+}
+#nav-menu-input:checked + .nav .nav-menu span {
+  display: none;
+}
+.nav-menu li:hover {
+  background-color: #b3a172;
+  -moz-transition: all 3s;
+  -o-transition: all 3s;
+  -webkit-transition: all 3s;
+  -ms-transition: all 3s;
+  transition: all 3s;
+  cursor: pointer;
+}
+.nav-menu > a {
+  font-size: 20px;
+}

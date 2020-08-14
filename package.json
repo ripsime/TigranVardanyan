@@ -1,0 +1,26 @@
+{
+  "name": "workgroup2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "less": "^3.12.2"
+
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "less": "lessc ./assets/less/main.less ./assets/css/main.css"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ripsime/Workgroup2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ripsime/Workgroup2/issues"
+  },
+  "homepage": "https://github.com/ripsime/Workgroup2#readme"
+}
