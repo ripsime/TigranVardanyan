@@ -1,4 +1,16 @@
 @BodyBg: #F0F0F0;
+
+@font-family: 'Roboto', Arial, Helvetica, sans-serif;
+
+.transition(){
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+
 .header{
 
     background-color: e2dede;
@@ -16,11 +28,13 @@
 a {
     text-decoration: none;
     color: deepskyblue;
+
+    &:hover {
+        color: white;
+    }
 }
 
-a:hover {
-    color: white;
-}
+
 .nav {
 
     position: relative;
@@ -64,6 +78,8 @@ a:hover {
 
 body{
     background: @BodyBg;
+    font-weight: 400;
+    font-family: @font-family;
 }
 
 .nav-burger-icon img:hover {

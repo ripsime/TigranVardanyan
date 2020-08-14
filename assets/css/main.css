@@ -49,6 +49,8 @@ a:hover {
 }
 body {
   background: #F0F0F0;
+  font-weight: 400;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 .nav-burger-icon img:hover {
   opacity: 0.8;
